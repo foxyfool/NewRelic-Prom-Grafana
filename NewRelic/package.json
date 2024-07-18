@@ -1,0 +1,16 @@
+{
+  "name": "27-newrelic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NEW_RELIC_APP_NAME= Node_App NEW_RELIC_LICENSE_KEY = eu01xxf58462fb3a9971c03c59c4c260FFFFNRAL node -r newrelic index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "newrelic": "^11.23.0"
+  }
+}
